@@ -4,48 +4,50 @@
 
 Create music like your favorite artist — powered by AI.
 
-Core features:
+## Core Features
+- Select track or artist  
+- Auto breakdown into kick, hi-hat, sample  
+- Visualize on interactive canvas  
+- Edit beat structure  
+- Play & download output  
+- AI explanation of how the beat is built  
 
-Select track or artist
-Auto breakdown into kick, hi-hat, sample
-Visualize on interactive canvas
-Edit beat structure
-Play & download output
-AI explanation of how the beat is built
-Current status:
-CLI prototype in Node.js (no UI yet)
+## Status
+CLI prototype (Node.js, no UI yet)
 
-Implemented:
+## Implemented
+- .mp3 upload  
+- BPM, key, structure analysis  
+- JSON generation  
+- GPT-based explanation  
 
-.mp3 upload
-BPM, key, structure analysis
-JSON generation
-GPT-based explanation
-Project structure:
+## Project Structure
+/backend  
+/api  
+/uploads  
+/audio  
+/canvas-data  
+/docs  
+/tests  
+runDemo.js  
 
-/backend
-/api
-/uploads
-/audio
-/canvas-data
-/docs
-/tests
-runDemo.js
-Run commands:
-
-git clone
-npm install
+## Run Locally
+```bash
+git clone https://github.com/your-username/ai-music.git
+cd ai-music  
+npm install  
 node runDemo.js
-Output:
+
+##Output
 
 JSON beat structure
-AI (GPT) text explanation
-Next steps:
+AI (GPT) explanation text
+Next Steps
 
 Canvas-based UI (React)
 Beat editing interface
 AI-generated beats
 Audio export
-Author:
-Maksym Makovskyi
+Author
 
+Maksym Makovskyi 
