@@ -1,12 +1,39 @@
-# React + Vite
+![AI Music Cover](/src/img/AI.png)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎵 AI Music Creator
 
-Currently, two official plugins are available:
+Create music like your favorite artist — powered by AI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+# 🎵 AI Music Creator
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Create music like your favorite artist — powered by AI.
+
+---
+
+## 🧠 What is this?
+
+**AI Music Creator** is a web-based platform where users can:
+- Select a favorite artist or track
+- Automatically break down the beat into structure (kick, hihat, sample, etc.)
+- Visualize the beat on an interactive timeline (canvas)
+- Edit the pattern, add/remove elements
+- Play and download the final version
+- Learn how to recreate a similar beat through AI explanations
+
+---
+
+## ⚙️ Current MVP: Functional Backend Prototype (No UI yet)
+
+This stage includes a fully working CLI-based prototype written in Node.js.
+
+Supported features:
+- Upload and process `.mp3` files
+- Analyze audio (BPM, key, structure, patterns)
+- Generate a structured JSON for visual canvas
+- Ask GPT (OpenAI) to explain how the beat was built and how to recreate it
+
+---
+
+## 📁 Project Structure
+
